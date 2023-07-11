@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right bottom, rgb(80, 146, 233),rgb(188, 110, 233), rgb(207, 207, 104));
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 380px;
+    padding: 20px 30px;
+    box-shadow: 0 0 5px #000;
+}
+
+.close {
+    text-align: right;
+}
+
+.close > a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(80, 146, 233)
+}
+
+.close > a:hover {
+    color: rgb(188, 110, 233);
+}
+
+.login-form {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+form > div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+}
+
+form > div > label {
+    font-size: 20px;
+    color: gray;  
+    font-weight: bold;  
+}
+
+form > div > input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+}
+
+.forgot-pwd {
+    margin-bottom: 20px;    
+}
+
+.forgot-pwd > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(80, 146, 233);
+}
+
+.forgot-pwd > a:hover {
+    color: rgb(188, 110, 233);
+}
+
+.login-submit {
+    background: linear-gradient(to bottom right, rgb(80, 146, 233), rgb(188, 110, 233));
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.login-submit:hover {
+    box-shadow: 0 0 4px 0px #000;
+}
+
+.not-a-member {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    color: gray;
+}
+
+.login-signup {
+    text-decoration: none;
+    color: rgb(80, 146, 233)
+}
+
+.login-signup:hover {
+    color: rgb(188, 110, 233);
+}
